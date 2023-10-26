@@ -1,0 +1,3 @@
+Projeto de Cadastro e Gerenciamento de Pessoas, um sistema CRUD integrado a um banco de dados, desenvolvido com as tecnologias Python, MySQL e PyQt5.
+Para a construção do banco de dados e suas tabelas, contei com a ajuda do MySQL Workbench, garantindo uma base sólida para o armazenamento de informações. A integração entre o sistema e o banco de dados foi implementada em Python.
+A interface do sistema foi criada de forma visual e intuitiva usando o Qt Designer. Com essa aplicação, você pode facilmente adicionar, visualizar, editar e excluir informações através da interface, modificando diretamente no banco de dados.
