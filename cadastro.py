@@ -49,8 +49,8 @@ def tela_lista():
     dados = cursor.fetchall()
     print(dados) 
     
-    lista.tableWidget.setRowCount(len(dados))#setrowcount - quantas linhas vai ter a tabela
-    lista.tableWidget.setColumnCount(5)#numero de colunas
+    lista.tableWidget.setRowCount(len(dados))
+    lista.tableWidget.setColumnCount(5)
 
     for i in range(0, len(dados)):
         for j in range(0, 5):
@@ -70,10 +70,10 @@ def tela_editar():
     
     numero_id = valor_id
     
-    editar.lineEdit.setText(str(nome[0][1]))#nome
-    editar.lineEdit_2.setText(str(nome[0][2]))#email
+    editar.lineEdit.setText(str(nome[0][1]))
+    editar.lineEdit_2.setText(str(nome[0][2]))
     #editar.lineEdit_4.setText(str(nome[0][1]))
-    editar.lineEdit_3.setText(str(nome[0][3]))#idade
+    editar.lineEdit_3.setText(str(nome[0][3]))
     
     conexao.commit()
     editar.show()
